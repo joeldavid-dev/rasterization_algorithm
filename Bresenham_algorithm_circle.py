@@ -1,16 +1,16 @@
 # Algoritmo Bresenham del punto medio para circunferencias
-import time
 from tkinter import *
 
 # Ajustes de ventana
 ventana = Tk()
-ventana.title("Algoritmo Bresenham")
+ventana.title("Algoritmo Bresenham circunferencia de punto medio")
 
 miFrame = Frame(ventana, width=1000, height=700)
 miFrame.pack()
 miFrame.config(background="grey")
 
-# El icono tiene un grosor especifico. en este caso es de: 20 px
+# El icono tiene un grosor especifico. en este caso es de 10 px, para fines practicos,
+# se establece en 14 px.
 pixel = PhotoImage(file="ico_emoji_mini.png")
 pixelWidth = 14
 
