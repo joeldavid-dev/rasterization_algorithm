@@ -1,5 +1,6 @@
 #Algoritmo DDA (Digital Diferential Analizer)
 from tkinter import *
+from turtle import clear
 
 #Ajustes de ventana
 ventana = Tk()
@@ -40,6 +41,5 @@ def lineaDDA (x0, y0, xEnd, yEnd):
         y0 += Yinc
         setPixel(round(x0), round(y0))
         
-#lineaDDA(2,7,40,19)
 lineaDDA(40,19,2,7)
 ventana.mainloop()
